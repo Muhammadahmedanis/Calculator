@@ -8,6 +8,44 @@
 </head>
 <body>
     
+    <div class="container">
+        <div class="input">
+            <input readonly type="text" id="inp">
+        </div>
+        <div class="btns">
+            <div>
+            <button   class="yellow" onclick="clrA()">AC</button>
+            <button  class="yellow" onclick="clr()">DE</button>
+            <button onclick="clk('%')"  class="yellow">%</button>
+            <button onclick="clk('/')"  class="yellow">/</button>
+        </div>
+        <div>
+            <button onclick="clk(7)" class="yellow">7</button>
+            <button onclick="clk(8)"  class="yellow">8</button>
+            <button onclick="clk(9)"  class="yellow">9</button>
+            <button class="yellow" onclick="clk('*')">X</button>
+        </div>
+        <div>
+            <button onclick="clk(4)"  class="yellow">4</button>
+            <button onclick="clk(5)"  class="yellow">5</button>
+            <button onclick="clk(6)"  class="yellow">6</button>
+            <button onclick="clk('-')"  class="yellow">-</button>
+        </div>
+        <div>
+            <button onclick="clk(1)"  class="yellow">1</button>
+            <button onclick="clk(2)"  class="yellow">2</button>
+            <button onclick="clk(3)"  class="yellow">3</button>
+            <button onclick="clk('+')"  class="yellow">+</button>
+        </div>
+        <div>
+            <button onclick="clk(0)"  class="yellow" id="diffbtn">0</button>
+            <button onclick="clk('.')"  class="yellow">.</button>
+            <button class="yellow" onclick="output()">=</button>
+        </div>
+    </div>
+
+</div>
+
     <script src="app.js"></script>
 </body>
 </html>
